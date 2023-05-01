@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Load Owners|Book a share truck</title>
+        <link rel="icon" href="favicon.png" type="image/png">
+        <style>
+
+            .header{
+                height: 55px;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                background-color: rgb(5, 5, 67);
+            }
+            .leftsection{
+                display: flex;
+            }
+            .rightsection{
+                color: white;
+                font-size: 20px;
+                width: 200px;
+                padding: 15px;
+                margin-left: 100px;
+                cursor: pointer;
+            }
+            .logo-header{
+                height: 60px;
+                margin-left: 70px;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+            .column {
+                background-color: rgb(5, 5, 67);
+                float: left;
+                width: 33.33%;
+                padding: 10px;
+                box-sizing: border-box;
+                margin-top: 100px;
+            }
+      
+      
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .booking-bar{
+                height: 30px;
+                width: 350px;
+                margin-bottom: 20px;
+                border-color:rgb(5, 5, 67) ;
+            }
+            .request-callback-button{
+                background-color: white;
+                color: rgb(5, 5, 67);
+                font-size: 20px;
+                height: 44px;
+                width: 350px;
+                margin-bottom: 25px;
+                border-color:rgb(5, 5, 67);
+                cursor: pointer;
+                font-weight: bold;
+            }
+            .background-image1{
+                height: 200px;
+                margin-top: 80px;
+                margin-left: 90px;
+                padding-bottom: 348px;
+            }
+            .owners-heading{
+                color: white;
+                margin-top: 70px;
+                margin-left: 40px;
+                font-size: 60px
+            }
+            .owners-content{
+                color: white;
+                padding-bottom: 63px;
+                margin-top: 0;
+                margin-left: 40px;
+                font-size: 40px
+            }
+            .book-truck-font{
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <a href="safothome.html"><div class="leftsection"><img class="logo-header" src="logo.png"></div></a>
+            
+            <a href="aboutus.html"><div class="rightsection">About Us</div></a>
+        </div>
+        <div class="row">
+            <div class="column">
+              <h2 class="owners-heading">Hello! Business Owners</h2>
+              <div class="owners-content"><p>Now Booking a truck is easy with Safot</p>
+                <p>Book Only a portion of truck you required and pay only for the portion used</p></div>
+              
+            </div>
+            <div class="column">
+                <img class="background-image1" src ="logo-1.png">
+            </div>
+            <div class="column">
+              <h2 class="book-truck-font">Book Truck</h2>
+              <input class="booking-bar" type="text" placeholder="Name">
+              <input class="booking-bar" type="text" placeholder="Business Name">
+              <input class="booking-bar" type="text" placeholder="Contact no">
+              <input class="booking-bar" type="text" placeholder="City">
+              <input class="booking-bar" type="text" placeholder="Goods Type">
+              <input class="booking-bar" type="text" placeholder="Vehicle Type">
+              <input class="booking-bar" type="text" placeholder="Portion required">
+              <input class="booking-bar" type="text" placeholder="From place">
+              <input class="booking-bar" type="text" placeholder="To place">
+              <button class="request-callback-button">REQUEST CALL BACK</button>
+            </div>
+          </div>
+          <hr>
+          <div>
+            <h1>Why choose us?</h1>
+          </div>
+    </body>
+</html>
